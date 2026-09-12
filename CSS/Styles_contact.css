@@ -1,0 +1,139 @@
+/* CUERPO */
+body{
+    background-image: url('../IMAGES/Index/FondoIndex.png');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../IMAGES/Index/FondoIndex.png');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    filter: blur(2px);  
+    z-index: -1; 
+}
+
+.regresar_boton {
+    background-color: #2d5a52;;;
+    color: white;
+}
+
+/* TITULOS */
+.div_titulo{
+    background-color: #63918b;
+    width: 400px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 50px;
+    font-size: 22px;
+}
+
+.div_titulo h1{
+    text-align: center;
+    color: white;
+}
+
+/* TARJETAS */
+.phone, .gmail, .direction{
+    background-color: rgba(99, 145, 139, 0.7);;
+    width: 450px;
+    height: 70px;
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 10px solid rgba(204, 222, 160, 1);
+}
+
+/* Espaciado entre tarjetas */
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+/* Párrafos dentro de tarjetas */
+.cards p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* Posicionamiento individual de tarjetas */
+.phone, .direction{
+    margin-left: 50px;
+}
+
+.phone{
+    position: relative;
+    top:  -20px;
+}
+
+.gmail{
+    margin-left: 850px;
+}
+
+/* IMAGENES */
+#icono1 img, #icono2 img, #icono3 img {
+    width: 110px;
+    height: 110px;
+    border: 20px solid #ccdea0;
+    border-radius: 50%; 
+   
+}
+
+#icono1{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 2;
+}
+
+#icono2{
+    position: absolute;
+    top: 130px;
+    left: 980px;
+    z-index: 2;
+}
+
+#icono3{
+    position: absolute;
+    left: 980px;
+    top: 470px;
+    z-index: 2;
+}
+
+/* BARRAS DECORATIVAS */
+.barra_decorativa1, .barra_decorativa2, .barra_decorativa3{
+    background-color: #397d5a;
+    z-index: 1;
+    width: 700px;
+    height: 40px;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.barra_decorativa1{
+    top: 302px;
+    left: 0px;
+}
+
+.barra_decorativa2{
+    top: 180px;
+    left: 700px;
+}
+
+.barra_decorativa3{
+    top: 520px; 
+    left: 700px;
+}
