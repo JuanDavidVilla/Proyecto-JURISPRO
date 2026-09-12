@@ -30,17 +30,24 @@ body::before {
 
 /* TITULOS */
 .div_titulo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; 
     background-color: #63918b;
-    width: 400px;
-    height: 50px;
+    width: 420px;
+    height: 60px;
     margin-left: 500px;
     border-radius: 50px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .div_titulo h1{
+    width: auto;
+    height: auto;
     text-align: center;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 /* TARJETAS */

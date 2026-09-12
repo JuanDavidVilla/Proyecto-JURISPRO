@@ -30,10 +30,13 @@ body::before {
 
 /* TITULOS */
 .div_titulo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; 
     background-color: #63918b;
     width: 420px;
     height: 105px;
-    margin-left: 500px;
+    
     border-radius: 50px;
     font-size: 22px;
 }
@@ -46,7 +49,7 @@ body::before {
 /* DECORACION TARGETA 1 */
 
 .target1{
-    background-color: #63918b;
+    background-color: rgba(99, 145, 139, 0.8);
     width: 500px;
     height: 300px;
 
@@ -61,7 +64,7 @@ body::before {
 /* DECORACION TARGETA 2 */
 
 .target2{
-    background-color: #63918b;
+    background-color: rgba(99, 145, 139, 0.8);
     width: 500px;
     height: 300px;
 
@@ -79,8 +82,8 @@ body::before {
     display: flex;
     flex-direction: row; 
     gap: 100px; 
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 70px;
+    margin-left: 130px;
     
 }
 
