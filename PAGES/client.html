@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BASE DE DATOS - CLIENTES</title>
+    <link rel="stylesheet" href="../CSS/Styles_client.css">
+  </head>
+  <body>
+
+    <a href="../index.html"><button type="button" class="regresar_boton">REGRESAR</button></a>
+
+    <main class="mainClass">
+
+        <div class="divClassForm">
+            <form class="ClassForm" method="POST" action="../LOGIC_JURISPRO/controller.php">
+
+                <p>
+                    <label for="name" id="label_name">
+                        NOMBRES COMPLETOS:
+                        <input id="name" type="text" name="input_name" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="ID_card" id="label_card">
+                        CEDULA:
+                        <input id="ID_card" type="number" name="input_card" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="phone" id="label_phone">
+                        TELEFONO CONTACTO:
+                        <input id="phone" type="number" name="input_phone" required>
+                    </label>
+                </p>
+
+                <p>
+                    <label for="info" id="label_info">
+                        INFORMACION DE SU CASO:
+                        <input id="info" type="text" name="input_info" required>
+                    </label>
+                </p>
+
+                <button type="submit" name="form_send" value="create"id="button_form">ENVIAR FORMULARIO</button>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+    <script src="../LOGIC_JURISPRO/logic_pages.js"></script>
+
+</html>
